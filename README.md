@@ -1,5 +1,6 @@
 This is research-code for 
 [Synthesizing Obama: Learning Lip Sync from Audio.](grail.cs.washington.edu/projects/AudioToObama/)
+
 Supasorn Suwajanakorn, Steven M. Seitz, Ira Kemelmacher-Shlizerman
 
 Please see [Supasorn's website](http://homes.cs.washington.edu/~supasorn/?page=code) for the overview.
