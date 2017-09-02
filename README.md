@@ -5,7 +5,7 @@ This is research-code for
 Supasorn Suwajanakorn, Steven M. Seitz, Ira Kemelmacher-Shlizerman<br>
 SIGGRAPH 2017
 
-To generate MFCC, first normalize the input audio using To normalize audio, use https://github.com/slhck/ffmpeg-normalize. Then use [Sphinx III's snippet](http://www.cs.cmu.edu/~dhuggins/Projects/pyphone/sphinx/mfcc.py) by David Huggins-Daines with a modified routine that saves log energy and timestamps:
+To generate MFCC, first normalize the input audio using https://github.com/slhck/ffmpeg-normalize. Then use [Sphinx III's snippet](http://www.cs.cmu.edu/~dhuggins/Projects/pyphone/sphinx/mfcc.py) by David Huggins-Daines with a modified routine that saves log energy and timestamps:
 
 ```python
 def sig2s2mfc_energy(self, sig, dn):
