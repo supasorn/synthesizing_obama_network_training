@@ -4,7 +4,7 @@ Supasorn Suwajanakorn, Steven M. Seitz, Ira Kemelmacher-Shlizerman
 
 Please see [Supasorn's website](http://homes.cs.washington.edu/~supasorn/?page=code) for the overview.
 
-To generate MFCC, use [Sphinx's III](http://www.cs.cmu.edu/~dhuggins/Projects/pyphone/sphinx/mfcc.py) with a modified routine that saves log energy and timestamps:
+To generate MFCC, use [Sphinx III's snippet](http://www.cs.cmu.edu/~dhuggins/Projects/pyphone/sphinx/mfcc.py) by David Huggins-Daines with a modified routine that saves log energy and timestamps:
 ```python
 def sig2s2mfc_energy(self, sig, dn):
   nfr = int(len(sig) / self.fshift + 1)
@@ -26,3 +26,4 @@ def sig2s2mfc_energy(self, sig, dn):
     fr = fr + 1
   return mfcc
 ```
+To normalize audio, use https://github.com/slhck/ffmpeg-normalize
